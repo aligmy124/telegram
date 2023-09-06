@@ -1,0 +1,247 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    line-height: 27px;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+
+header{
+  background-image: linear-gradient(#fff,#ffd6d6);
+  background-size: cover;
+  height: 100vh;
+    
+}
+#navbar{
+   
+    color: #fff;
+    overflow: auto;
+}
+#navbar .im{
+    display: inline-block;
+    /* float: left; */
+    cursor: pointer;
+} 
+#navbar .im img{
+    display: block;
+    width: 150px;
+    padding: 20px;
+   
+}
+#navbar ul{
+    list-style: none;
+    float: right;
+}
+#navbar ul li{
+    display: inline-block;
+}
+#navbar ul li a{
+    padding: 20px;
+    text-align: center;
+    display: block;
+    color: #333;
+}
+#navbar ul li a:hover{
+  color: rgb(243, 171, 171);
+}
+#navbar ul i{
+    color: #000;
+    padding: 0 10px;
+    cursor: pointer;
+}
+#navbar ul i:hover{
+    color: rgb(243, 171, 171);
+}
+.container{
+    max-width: 1100px;
+    padding: 0 20px;
+    overflow: auto;
+    margin: auto;
+}
+#index{
+  height: 600px;
+}
+#index .im{
+    width: 50%;
+    min-height: 100%;
+    float: right;
+}
+#index .im img{
+    width: 600px;
+}
+#index .text-home{
+   width:49%;
+   min-height: 100%;
+   float: left;
+   padding: 150px 60px;
+}
+#index .text-home h1,h2{
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+#index .text-home p{
+    line-height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.btn{
+    display:inline-block;
+    background-color:rgb(255, 94, 0) ;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.btn:hover{
+    background-color: #000;
+    color: #fff;
+}
+#catagory {
+    height: 400px;
+}
+#catagory .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#catagory .row .col img{
+   margin:50px 5px; 
+   transition: 0.5s;
+}
+#catagory .row .col img:hover{
+    transform: translate(5px,8px);
+}
+#products {
+    /* height: 1000px; */
+}
+#products .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#products .row .col h2{
+    text-align: center;
+    font-size: 20px;
+}
+ .icons{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ color: rgb(239, 114, 65);
+}
+.icons:hover{
+    color: #333;
+}
+
+#products .row .col img{
+   margin:50px 5px; 
+   transition: 0.5s ;
+}
+#products .row .col img:hover{
+  /* box-shadow: 0 0 20px ; */
+  transform: translate(5px,8px);
+}
+#products .text-pro{
+    text-align: center;
+    padding-top:30px ;
+}
+/* ****last pro***** */
+#products .title{
+    text-align: center;
+    padding-top:30px ;
+}
+#offer{
+    background-color: #f3d6d6;
+    margin-top: 50px;
+    padding: 80px ;
+}
+#offer .row {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+#offer .row .col-2 img{
+    width: 500px;
+}
+#offer .row .col-2 h1{
+    margin: 20px 0;
+    font-size: 50px;
+}
+#opinion{
+    height: 600px;
+    padding: 50px;
+}
+#Opinion .imgs{
+    display: inline-block;
+    width: 33%;
+    min-height: 100%;
+    text-align: center;
+    padding: 100px;
+    transition: 0.5s;
+}
+#Opinion .imgs:hover{
+    box-shadow: 0 0 20px 0 rgb(0,0,0,0.3);
+    
+}
+#Opinion .imgs img{
+    border-radius: 50%;
+}
+#Brand .branding{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    /* background-color: #000; */
+}
+#Brand .branding .branding-com img{
+    padding:30px;
+    cursor: pointer;
+}
+#Brand .branding .branding-com img:hover{
+    color: #444;
+    filter:grayscale(100%);
+}
+.footer .all-foot{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #000000;
+    color: #fff;
+    padding: 50px;
+}
+.footer .all-foot .part-foot{
+    /* background-color: #000; */
+    color: #fff;
+    margin: 20px;
+    width: 25%;
+    text-align: center;
+}
+.footer .all-foot .part-foot h2{
+    margin: 20px 0;
+}
+.footer .all-foot .part-foot p{
+    margin: 10px 0;
+    color: #817f7fa0;
+}
+.footer .all-foot .part-foot ul{
+    list-style: none;
+}
+.footer .all-foot .part-foot ul li a{
+    color: #817f7fa0;
+    transition: 0.5s;
+}
+.footer .all-foot .part-foot ul li a:hover{
+    color: #ffd6d6; 
+}
+
+
+
